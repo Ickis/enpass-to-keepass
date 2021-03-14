@@ -16,10 +16,12 @@ DIRECTLY_MAPPED_FIELDS = ["url", "username", "password"]
 CSV_HEADERS = ["title", "url", "username", "password", "group", "notes"]
 FIELD_ALIASES = {
     "website": "url",
+    "webseite": "url",
     "e-mail": "email",
     "login": "username",
     "benutzername": "username",
     "kennwort": "password",
+    "passwort": "password"
 }
 
 extra_keys = set([])
